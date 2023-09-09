@@ -1,0 +1,4 @@
+npm init
+npm install --save lodash
+node index.js
+npm install --global sass

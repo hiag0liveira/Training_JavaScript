@@ -1,0 +1,26 @@
+npm init -y
+npm install --save hello-world-npm
+npx hello-world-npm
+
+        // package.json
+
+        // ...
+            "scripts": {
+            "hello": "hello-world-npm"
+            },
+        // ...
+
+npm run hello
+
+
+
+// package.json
+
+        // ...
+            "scripts": {
+            "hello": "hello-world-npm",
+            "start": "node index.js"
+        },
+        // ...
+
+npm start

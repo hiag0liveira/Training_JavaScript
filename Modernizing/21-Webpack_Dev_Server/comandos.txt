@@ -1,0 +1,3 @@
+npm i -D webpack-dev-server
+npx webpack-dev-server
+npm run dev

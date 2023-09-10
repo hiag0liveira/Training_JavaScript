@@ -2,3 +2,4 @@ npm init -y
 npm install --save-dev webpack webpack-cli
 npm install --save dayjs
 npx webpack
+(mudar nome do dist)

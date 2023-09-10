@@ -1,0 +1,29 @@
+npm init -y
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+npx babel index.js
+npx babel index.js --out-file dist.js
+npx babel index.js --out-file dist.js --presets=@babel/preset-env
+npx babel src --out-dir dist --presets=@babel/preset-env
+
+        // package.json
+
+        // ...
+        "main": "index.js",
+        "scripts": {
+            "babel": "babel src --out-dir dist --presets=@babel/preset-env"
+        },
+        "keywords": [],
+        // ...
+
+npm run babel
+
+
+        // package.json
+
+        // ...
+        "main": "index.js",
+        "scripts": {
+            "babel": "babel src --out-dir dist --presets=@babel/preset-env"
+        },
+        "keywords": [],
+        // ...

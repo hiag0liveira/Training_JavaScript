@@ -16,3 +16,5 @@ const book = {
 }
 
 console.log(book)
+
+//node index1.js

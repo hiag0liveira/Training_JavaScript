@@ -25,3 +25,5 @@ const eldest = new Book("Eldest", 644, tags, author)
 
 console.log(eragon)
 console.log(eldest)
+
+//node index2.js
